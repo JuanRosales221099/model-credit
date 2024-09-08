@@ -24,19 +24,16 @@ Project Organization
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── make_dataset.py<- Script to prepare data
-    │   │
-    │   ├── train.py       <- Script to train models
-    │   │                    
-    │   ├── evaluate.py    <- Script to evaluate models using kpi's
-    │   │
-    │   └── predict.py     <- Script to use trained models to make predictions
-    │
-    └── LICENSE            <- License
+        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── make_dataset.py<- Script to prepare data
+        │
+        ├── train.py       <- Script to train models
+        │                    
+        ├── evaluate.py    <- Script to evaluate models using kpi's
+        │
+        └── predict.py     <- Script to use trained models to make predictions
+    
 
 
---------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
